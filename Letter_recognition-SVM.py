@@ -11,7 +11,7 @@ from sklearn.model_selection import GridSearchCV
 
 #import matplotlib.pyplot as plt
 
-letter_data = pd.read_csv("/Users/Arpit/Documents/UpGrad/SVM/Letter-recognition.csv")
+letter_data = pd.read_csv("Letter-recognition.csv")
 letter_data.head(10)
 
 #Understanding Dimensions
